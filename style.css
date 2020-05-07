@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Formular';
+   src: local('Formular'),
+    local('Formular-Medium'),
+     url('Formular.otf');
+}
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+  background-color: black;
+}
+
+	body {
+    overflow: hidden;
+		font-family: 'Formular', Helvetica, Arial;
+	}
+
+#filler {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 600vw;
+		height: 100%;
+	}
+
+#container {
+		width: 600vw;
+		position: absolute;
+}
+
+
+#timeline {
+  position: absolute;
+	z-index: 999;
+  width: 600vw;
+  height: 20px;
+  left: 0;
+  bottom: 0;
+
+  /*background: linear-gradient( 90deg, #4200FF, #ADFF00);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow: visible;
+  */
+
+  background-image: url("img/line2.png");
+  background-repeat: repeat-x;
+
+}
+
+
+.section {
+		display: block;
+		width: 100vw;
+		height: 100vh;
+		float: left;
+		margin-left: 0;
+}
+
+.blue {
+	background-color: black;
+}
+
+
+.content {
+	height: 100%;
+	width: 50%;
+	position: relative;
+	top: 200px;
+	margin: auto;
+}
+
+.figma {
+	height: 100vh;
+	width: 50vw;
+	border: none;
+}
+
+
+.image {
+  height: 300px;
+  width: 300px;
+}
+
+
+
+	.clear { clear: both; }
+	#return-link { position: fixed; top: 12px; left: 18px; font: 11px Verdana, Arial, sans-serif; text-transform: uppercase; }
+	#return-link:link, #return-link:visited { color: #06F; text-decoration: none; }
+	#return-link:hover, #return-link:active { text-decoration: underline; }
+
+
+h1 {
+  font-size: 80px;
+  font-weight: 300;
+  color: white;
+
+}
+
+a {
+  font-size: 22px;
+	color: #4200FF;
+  text-decoration: none;
+}
+
+p {
+  font-size: 22px;
+  font-weight: 300;
+  color: white;
+}
