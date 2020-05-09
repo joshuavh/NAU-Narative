@@ -31,6 +31,26 @@ format("embedded-opentype"),
     background-color: black;
 	}
 
+#logo {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  z-index: 2;
+}
+
+#about {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  color: #90FFBC;
+  font-size: 16px;
+  font-weight: 500;
+  z-index: 2;
+}
+
 #timeline {
     position: absolute;
   	width: 1200vw;
@@ -39,7 +59,7 @@ format("embedded-opentype"),
     bottom: 0;
     background-image: url("img/line2.png");
     background-repeat: repeat-x;
-    z-index: 1;
+    z-index: 2;
   }
 
 
