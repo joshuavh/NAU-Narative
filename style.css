@@ -165,10 +165,25 @@ format("embedded-opentype"),
 
 }
 
-.image {
-  height: 300px;
-  width: 300px;
+.imagecontainer {
+  position: relative;
+  height: 50vh;
+  width: auto;
+  margin: auto;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.2s ease;
+   -moz-transition: all 0.2s ease;
+   -o-transition: all 0.2s ease;
+   transition: all 0.2s ease;
 }
+
+.image {
+    height: 100%;
+}
+
+
 
 
 h1 {
@@ -218,4 +233,8 @@ span {
 
 h1 span{
   -webkit-text-stroke-color: #D5C6FF;
+}
+
+.imagecontainer:hover {
+    height: 80vh;
 }
