@@ -13,8 +13,8 @@
   width: 50vw;
   margin: auto;
   top: 50%;
-  -ms-transform: translateY(-25%);
-  transform: translateY(-25%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   color: white;
   overflow: scroll;
 }
@@ -62,14 +62,16 @@ textarea {
 #HCB_comment_form_box  {
   background-color: rgba(0, 0, 0, 0);
   color: white;
-  overflow: scroll;
   height: 200px;
+  scrollbar-color: dark;
+  overflow: auto;
 }
 
 
 
 #HCB_comment_form_box textarea {
   height: 50px;
+  scrollbar-color: dark;
 }
 
 #hcb_submit {
