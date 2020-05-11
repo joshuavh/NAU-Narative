@@ -4,16 +4,19 @@
   height: 100vh;
   float: left;
   margin-left: 0;
-  overflow: scroll;
-  scrollbar-base-color: white;
+  overflow-y:scroll;;
+}
 
+-webkit-scrollbar-thumb {
+background-color: red;
+outline: 1px solid green;
 }
 
 
 #HCB_comment_box {
   position: relative;
   height: 80vh;
-  width: 50vw;
+  width: 80vw;
   margin: auto;
   top: 50%;
   -ms-transform: translateY(-50%);
