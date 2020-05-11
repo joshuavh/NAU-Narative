@@ -17,6 +17,7 @@
   transform: translateY(-50%);
   color: white;
   overflow: scroll;
+  scrollbar-arrow-color: white;
 }
 
 #HCB_comment_box h3 {
@@ -63,15 +64,14 @@ textarea {
   background-color: rgba(0, 0, 0, 0);
   color: white;
   height: 200px;
-  scrollbar-color: dark;
-  overflow: auto;
+  overflow: scroll;
+  scrollbar-arrow-color: white;
 }
 
 
 
 #HCB_comment_form_box textarea {
   height: 50px;
-  scrollbar-color: dark;
 }
 
 #hcb_submit {
