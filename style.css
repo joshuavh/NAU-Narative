@@ -53,7 +53,7 @@ format("embedded-opentype"),
 
 #timeline {
     position: absolute;
-  	width: 2500vw;
+  	width: 3000vw;
     height: 20px;
     left: 0;
     bottom: 0;
@@ -65,7 +65,7 @@ format("embedded-opentype"),
 
 
 #container {
-		width: 2500vw;
+		width: 3000vw;
 		position: absolute;
     perspective: 1px;
     overflow: hidden;
@@ -75,7 +75,7 @@ format("embedded-opentype"),
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 5000vw;
+		width: 6000vw;
 		height: 100%;
     background-image: url("img/Unbenannt-4.gif");
     background-size: auto 100vh;
@@ -233,6 +233,16 @@ span {
 
 h1 span{
   -webkit-text-stroke-color: #D5C6FF;
+}
+
+mark {
+  background-color: white;
+  color: white;
+}
+
+mark:hover {
+  background-color: rgba(0,0,0,0);
+  color: white;
 }
 
 
