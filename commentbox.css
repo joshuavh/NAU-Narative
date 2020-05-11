@@ -5,7 +5,7 @@
   margin: auto;
   top: 25%;
   color: white;
-  overflow: auto;
+  overflow: scroll;
 }
 
 #HCB_comment_box h3 {
@@ -35,6 +35,7 @@
 #HCB_comment_form_box  {
   background-color: rgba(0, 0, 0, 0);
   color: white;
+  overflow: scroll;
 }
 
 input{
