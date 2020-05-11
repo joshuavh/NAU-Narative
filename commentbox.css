@@ -4,7 +4,7 @@
   height: 100vh;
   float: left;
   margin-left: 0;
-  overflow-y:scroll;
+  overflow: scroll;
 }
 
 .commenbox:: -webkit-scrollbar-thumb {
@@ -25,6 +25,13 @@ outline: 1px solid green;
   overflow: scroll;
   scrollbar-base-color: white;
 }
+
+#HCB_comment_box:: -webkit-scrollbar-thumb {
+background-color: red;
+outline: 1px solid green;
+}
+
+
 
 #HCB_comment_box h3 {
   font-size: 30px;
