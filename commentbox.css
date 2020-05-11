@@ -17,7 +17,7 @@
   transform: translateY(-50%);
   color: white;
   overflow: scroll;
-  scrollbar-arrow-color: white;
+  scrollbar-base-color: white;
 }
 
 #HCB_comment_box h3 {
@@ -65,7 +65,7 @@ textarea {
   color: white;
   height: 200px;
   overflow: scroll;
-  scrollbar-arrow-color: white;
+  scrollbar-base-color: white;
 }
 
 
