@@ -5,7 +5,7 @@
   color: #90FFBC;
   background-color: rgba(0,0,0,0);
   border: none;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   z-index: 2;
 }
@@ -23,5 +23,6 @@
   color: white;
   z-index: 1;
   font-size: 30px;
+  font-weight: 300;
   display: none;
 }
