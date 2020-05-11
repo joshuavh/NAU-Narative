@@ -7,11 +7,6 @@
   overflow: scroll;
 }
 
-.commentbox:: -webkit-scrollbar-thumb {
-background-color: red;
-outline: 1px solid green;
-}
-
 
 #HCB_comment_box {
   position: relative;
@@ -24,12 +19,6 @@ outline: 1px solid green;
   color: white;
   overflow: scroll;
 }
-
-#HCB_comment_box:: -webkit-scrollbar-thumb {
-background-color: red;
-outline: 1px solid green;
-}
-
 
 
 #HCB_comment_box h3 {
