@@ -4,10 +4,10 @@
   height: 100vh;
   float: left;
   margin-left: 0;
-  overflow-y:scroll;;
+  overflow-y:scroll;
 }
 
--webkit-scrollbar-thumb {
+.commenbox:: -webkit-scrollbar-thumb {
 background-color: red;
 outline: 1px solid green;
 }
