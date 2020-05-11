@@ -9,10 +9,12 @@
 
 #HCB_comment_box {
   position: relative;
-  height: 50vh;
+  height: 80vh;
   width: 50vw;
   margin: auto;
-  top: 25%;
+  top: 50%;
+  -ms-transform: translateY(-25%);
+  transform: translateY(-25%);
   color: white;
   overflow: scroll;
 }
@@ -57,7 +59,6 @@ textarea {
 }
 
 
-
 #HCB_comment_form_box  {
   background-color: rgba(0, 0, 0, 0);
   color: white;
@@ -68,7 +69,7 @@ textarea {
 
 
 #HCB_comment_form_box textarea {
-  height: auto;
+  height: 50px;
 }
 
 #hcb_submit {
