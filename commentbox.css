@@ -7,7 +7,7 @@
   overflow: scroll;
 }
 
-.commenbox:: -webkit-scrollbar-thumb {
+.commentbox:: -webkit-scrollbar-thumb {
 background-color: red;
 outline: 1px solid green;
 }
@@ -23,7 +23,6 @@ outline: 1px solid green;
   transform: translateY(-50%);
   color: white;
   overflow: scroll;
-  scrollbar-base-color: white;
 }
 
 #HCB_comment_box:: -webkit-scrollbar-thumb {
