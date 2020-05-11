@@ -53,7 +53,7 @@ format("embedded-opentype"),
 
 #timeline {
     position: absolute;
-  	width: 2000vw;
+  	width: 2500vw;
     height: 20px;
     left: 0;
     bottom: 0;
@@ -65,7 +65,7 @@ format("embedded-opentype"),
 
 
 #container {
-		width: 2000vw;
+		width: 2500vw;
 		position: absolute;
     perspective: 1px;
     overflow: hidden;
@@ -75,7 +75,7 @@ format("embedded-opentype"),
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 4000vw;
+		width: 5000vw;
 		height: 100%;
     background-image: url("img/Unbenannt-4.gif");
     background-size: auto 100vh;
@@ -226,7 +226,7 @@ small {
 }
 
 span {
-  -webkit-text-fill-color: rgba(0, 0, 0, 0);; /* Will override color (regardless of order) */
+  -webkit-text-fill-color: rgba(0, 0, 0, 0); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: white;
 }
@@ -234,6 +234,7 @@ span {
 h1 span{
   -webkit-text-stroke-color: #D5C6FF;
 }
+
 
 .imagecontainer:hover {
     height: 80vh;

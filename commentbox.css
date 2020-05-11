@@ -1,0 +1,38 @@
+#HCB_comment_box {
+  position: relative;
+  height: 50vh;
+  width: 50vw;
+  margin: auto;
+  top: 25%;
+  color: white;
+  font-size: 16px;
+}
+
+#HCB_comment_box h3 {
+  padding: 0;
+  font-size: 16px;
+}
+
+#HCB_comment_box p {
+  padding: 0;
+  font-size: 16px;
+}
+
+#HCB_comment_box a {
+  padding: 0;
+  font-size: 16px;
+}
+
+#HCB_comment_box span {
+  span {
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0px;
+  }
+}
+
+
+input[type=text] {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+
+}
