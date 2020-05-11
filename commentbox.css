@@ -6,14 +6,15 @@
   margin-left: 0;
 }
 
+
 #HCB_comment_box {
   position: relative;
-  height: 80vh;
+  height: 50vh;
   width: 50vw;
   margin: auto;
   top: 25%;
   color: white;
-  overflow: visible;
+  overflow: scroll;
 }
 
 #HCB_comment_box h3 {
@@ -33,19 +34,6 @@
   font-size: 16px;
 }
 
-#HCB_comment_box span {
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 0px;
-}
-
-
-
-#HCB_comment_form_box  {
-  background-color: rgba(0, 0, 0, 0);
-  color: white;
-  overflow: visible:
-}
-
 input{
   background-color: rgba(0, 0, 0, 0);
   color: white;
@@ -63,9 +51,32 @@ textarea {
   margin-bottom: 20px;
 }
 
+#HCB_comment_box span {
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0px;
+}
+
+
+
+#HCB_comment_form_box  {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  overflow: scroll;
+  height: 200px;
+}
+
+
+
+#HCB_comment_form_box textarea {
+  height: auto;
+}
+
 #hcb_submit {
   background-color: #D5C6FF;;
   border-radius: 2px;
+  padding: 8px;
+  margin-right: 10px;
   cursor: pointer;
+  font-weight: 500;
   color: black;
 }
