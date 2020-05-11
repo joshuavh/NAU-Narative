@@ -1,11 +1,19 @@
+.commentbox {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  float: left;
+  margin-left: 0;
+}
+
 #HCB_comment_box {
   position: relative;
-  height: 50vh;
+  height: 80vh;
   width: 50vw;
   margin: auto;
   top: 25%;
   color: white;
-  overflow: scroll;
+  overflow: visible;
 }
 
 #HCB_comment_box h3 {
@@ -35,7 +43,7 @@
 #HCB_comment_form_box  {
   background-color: rgba(0, 0, 0, 0);
   color: white;
-  overflow: scroll;
+  overflow: visible:
 }
 
 input{
