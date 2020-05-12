@@ -182,8 +182,6 @@ h1 {
   line-height: 1.2;
   font-weight: 400;
   color: #D5C6FF;
-
-
 }
 
 h2 {
@@ -210,6 +208,11 @@ a {
   line-height: 2;
 }
 
+#inline {
+  line-height: 1.35;
+  display: inline;
+}
+
 small {
   font-size: 20px;
   font-weight: 400;
@@ -234,6 +237,10 @@ mark {
 mark:hover {
   background-color: rgba(0,0,0,0);
   color: #D5C6FF;
+}
+
+#white {
+   color: white !important;
 }
 
 
