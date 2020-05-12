@@ -11,7 +11,7 @@
 #HCB_comment_box {
   position: relative;
   height: 80vh;
-  width: 70vw;
+  width: 60vw;
   margin: auto;
   top: 50%;
   -ms-transform: translateY(-50%);
