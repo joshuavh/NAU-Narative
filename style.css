@@ -198,6 +198,7 @@ p {
   font-weight: 300;
   color: white;
   line-height: 1.35;
+  filter: drop-shadow(0 0 1rem black);
 }
 
 a {
