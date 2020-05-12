@@ -113,8 +113,8 @@ format("embedded-opentype"),
 	position: relative;
 	margin: auto;
   top: 50%;
-  -ms-transform: translateY(-25%);
-  transform: translateY(-25%);
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 .largecontent {
@@ -198,7 +198,7 @@ p {
   font-weight: 300;
   color: white;
   line-height: 1.35;
-  filter: drop-shadow(0 0 1rem black);
+  filter: drop-shadow(0 0 0.5rem black);
 }
 
 a {
@@ -207,6 +207,7 @@ a {
 	color: #90FFBC;
   text-decoration: none;
   line-height: 2;
+  filter: drop-shadow(0 0 0.5rem black);
 }
 
 #inline {
