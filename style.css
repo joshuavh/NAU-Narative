@@ -240,9 +240,15 @@ mark:hover {
 }
 
 #white {
-   color: white !important;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
 }
 
+#lavender {
+  -webkit-text-fill-color: #D5C6FF; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0;
+  font-weight: 500;
+  font-style: italic;
+}
 
 .imagecontainer:hover {
     height: 80vh;
