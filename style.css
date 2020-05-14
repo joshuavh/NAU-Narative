@@ -27,9 +27,7 @@ format("embedded-opentype"),
 }
 
 body {
-		font-family:'Formular','Helvetica Neue', Helvetica, Arial;
     background-color: black;
-    width: 3100vw;
     overflow: hidden;
 }
 
@@ -54,6 +52,21 @@ body {
     background-repeat: repeat-x;
     z-index: 999;
   }
+
+  .progress-container {
+  width: 100%;
+  height: 8px;
+  position: fixed;
+  z-index: 999;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #D5C6FF;
+  width: 0%;
+  position: fixed;
+  z-index: 999;
+}
 
 
 
@@ -217,82 +230,6 @@ body {
 }
 
 
-
-
-h1 {
-  font-size: 110px;
-  line-height: 1.2;
-  font-weight: 400;
-  color: #D5C6FF;
-}
-
-h2 {
-  font-size: 80px;
-  line-height: 1.2;
-  font-weight: 400;
-  color: white;
-
-}
-
-
-p {
-  font-size: 30px;
-  font-weight: 300;
-  color: white;
-  line-height: 1.35;
-  filter: drop-shadow(0 0 0.5rem black);
-}
-
-a {
-  font-size: 30px;
-  font-weight: 300;
-	color: #90FFBC;
-  text-decoration: none;
-  line-height: 2;
-  filter: drop-shadow(0 0 0.5rem black);
-}
-
-#inline {
-  line-height: 1.35;
-  display: inline;
-}
-
-small {
-  font-size: 20px;
-  font-weight: 400;
-  color: white;
-}
-
-span {
-  -webkit-text-fill-color: rgba(0, 0, 0, 0); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: white;
-}
-
-h1 span{
-  -webkit-text-stroke-color: #D5C6FF;
-}
-
-mark {
-  background-color: #D5C6FF;
-  color: #D5C6FF;
-}
-
-mark:hover {
-  background-color: rgba(0,0,0,0);
-  color: #D5C6FF;
-}
-
-#white {
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-}
-
-#lavender {
-  -webkit-text-fill-color: #D5C6FF; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 0;
-  font-weight: 500;
-  font-style: italic;
-}
 
 .imagecontainer:hover {
     height: 80vh;
