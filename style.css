@@ -207,9 +207,6 @@ body {
 	border: none;
 }
 
-.intro {
-
-}
 
 .imagecontainer {
   position: relative;
@@ -229,6 +226,19 @@ body {
     height: 100%;
 }
 
+.videocontainer {
+  position: relative;
+  height: 80vh;
+  width: auto;
+  margin: auto;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.video {
+  height: 100%;
+}
 
 
 .imagecontainer:hover {
