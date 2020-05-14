@@ -29,7 +29,7 @@ format("embedded-opentype"),
 body {
 		font-family:'Formular','Helvetica Neue', Helvetica, Arial;
     background-color: black;
-    width: 3000vw;
+    width: 3100vw;
     overflow: hidden;
 }
 
@@ -40,27 +40,25 @@ body {
   color: white;
   font-size: 16px;
   font-weight: 500;
-  z-index: 2;
+  z-index: 999;
 }
 
 
 #timeline {
     position: absolute;
-  	width: 3000vw;
+  	width: 3100vw;
     height: 20px;
     left: 0;
     bottom: 0;
     background-image: url("img/line2.png");
     background-repeat: repeat-x;
-    z-index: 2;
+    z-index: 999;
   }
 
 
 
 .chapter {
-  position: relative;
-  height: 100vh;
-  float: left;
+  position: absolute;
   margin-left: 0;
   display: block;
   overflow: hidden;
@@ -68,25 +66,33 @@ body {
 }
 
 #intro {
-  width: 700vw;
+  width: 800vw;
+  left: 0;
+  z-index: 0;
 }
 
 #near {
-  width: 1100vw;
+  width: 1200vw;
+  left: 400vw;
+  z-index: 1;
 }
 
 #speculative {
   width: 900vw;
+  left: 1000vw;
+  z-index: 2;
 }
 
 #outro {
-  width: 300vw;
+  width: 200vw;
+  left: 1450vw;
+  z-index: 3;
 }
 
 
 .background {
   position: absolute;
-  width: 150%;
+  width: 200%;
   height: 100%;
   background-size: auto 100%;
   background-repeat: repeat-x;
@@ -104,6 +110,10 @@ body {
 
 #background3 {
   background-image: url("img/wetransfer-colorpush-artwork_5.gif");
+}
+
+#background4 {
+  background-color: black;
 }
 
 
