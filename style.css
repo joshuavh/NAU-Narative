@@ -41,7 +41,7 @@ body {
   z-index: 999;
 }
 
-
+/*
 #timeline {
     position: absolute;
   	width: 3100vw;
@@ -52,11 +52,14 @@ body {
     background-repeat: repeat-x;
     z-index: 999;
   }
+  */
 
-  .progress-container {
+.progress-container {
+  background: #4D4D4D;
   width: 100%;
   height: 8px;
   position: fixed;
+  bottom: 0;
   z-index: 999;
 }
 
@@ -66,6 +69,27 @@ body {
   width: 0%;
   position: fixed;
   z-index: 999;
+}
+
+.progress-marker {
+  position: fixed;
+  bottom: 0;
+  height: 8px;
+  width: 8px;
+  background: white;
+  z-index: 999;
+}
+
+#marker1 {
+  left: 24%;
+}
+
+#marker2 {
+  left: 55%;
+}
+
+#marker3 {
+  left: 80%;
 }
 
 
