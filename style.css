@@ -28,6 +28,8 @@ format("embedded-opentype"),
 
 body {
     background-color: black;
+    position: relative;
+    width: 3000vw;
     overflow: hidden;
 }
 
@@ -95,40 +97,18 @@ body {
 
 
 .chapter {
-  position: absolute;
-  margin-left: 0;
-  display: block;
+  height: 100%;
+  float: left;
+  display: inline-block;
   overflow: hidden;
   perspective: 1px;
 }
 
-#intro {
-  width: 800vw;
-  left: 0;
-  z-index: 0;
-}
-
-#near {
-  width: 1200vw;
-  left: 400vw;
-  z-index: 1;
-}
-
-#speculative {
-  width: 900vw;
-  left: 1000vw;
-  z-index: 2;
-}
-
-#outro {
-  width: 200vw;
-  left: 1450vw;
-  z-index: 3;
-}
 
 
 .background {
   position: absolute;
+  float: left;
   width: 200%;
   height: 100%;
   background-size: auto 100%;
@@ -252,6 +232,7 @@ body {
     margin: auto;
     max-width:100%;
     max-height:100%;
+    border-radius: 3px;
 }
 
 .videocontainer {
