@@ -28,12 +28,8 @@ format("embedded-opentype"),
 
 }
 
-
-
 body {
     background-color: black;
-    position: relative;
-    width: 3000vw;
     overflow: hidden;
 }
 
@@ -101,18 +97,42 @@ body {
 
 
 .chapter {
-  height: 100%;
-  float: left;
-  display: inline-block;
+  position: absolute;
+  /* margin-left: 0; */
+  /* display: block; */
+  display: flex;
+  flex-direction: row;
   overflow: hidden;
   perspective: 1px;
 }
 
+#intro {
+  /* width: 800vw; */
+  left: 0;
+  z-index: 0;
+}
+
+#near {
+  /* width: 1200vw; */
+  left: 400vw;
+  z-index: 1;
+}
+
+#speculative {
+  /* width: 900vw; */
+  left: 1000vw;
+  z-index: 2;
+}
+
+#outro {
+  /* width: 200vw; */
+  left: 1450vw;
+  z-index: 3;
+}
 
 
 .background {
   position: absolute;
-  float: left;
   width: 200%;
   height: 100%;
   background-size: auto 100%;
@@ -123,7 +143,7 @@ body {
 
 #background1 {
   background-image: url("img/wetransfer-colorpush-artwork_5.gif");
-	}
+}
 
 #background2 {
   background-image: url("img/wetransfer-colorpush-artwork_lite.gif");
@@ -154,19 +174,19 @@ body {
 
 
 .section {
-		display: block;
-		width: 100vw;
-		height: 100vh;
-		float: left;
-		margin-left: 0;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  float: left;
+  margin-left: 0;
 }
 
 .smallsection {
-		display: block;
-		width: 50vw;
-		height: 100vh;
-		float: left;
-		margin-left: 0;
+  display: block;
+  width: 50vw;
+  height: 100vh;
+  float: left;
+  margin-left: 0;
 }
 
 
@@ -236,7 +256,6 @@ body {
     margin: auto;
     max-width:100%;
     max-height:100%;
-    border-radius: 3px;
 }
 
 .videocontainer {
