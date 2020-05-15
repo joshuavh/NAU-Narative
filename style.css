@@ -15,7 +15,9 @@ format("embedded-opentype"),
  format("truetype"), url("//db.onlinewebfonts.com/t/a88a60b3d148d2698fcf827348b8b6fc.svg#Hellovetica")
  format("svg"); }
 
-
+ ::-webkit-scrollbar-thumb {
+   background: blue;
+ }
 
 * {
 	padding: 0;
@@ -25,6 +27,8 @@ format("embedded-opentype"),
   overflow: hidden;
 
 }
+
+
 
 body {
     background-color: black;
