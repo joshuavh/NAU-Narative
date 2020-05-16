@@ -43,18 +43,6 @@ body {
   z-index: 999;
 }
 
-/*
-#timeline {
-    position: absolute;
-  	width: 3100vw;
-    height: 20px;
-    left: 0;
-    bottom: 0;
-    background-image: url("img/line2.png");
-    background-repeat: repeat-x;
-    z-index: 999;
-  }
-  */
 
 .progress-container {
   background: #4D4D4D;
@@ -98,8 +86,6 @@ body {
 
 .chapter {
   position: absolute;
-  /* margin-left: 0; */
-  /* display: block; */
   display: flex;
   flex-direction: row;
   overflow: hidden;
@@ -107,25 +93,21 @@ body {
 }
 
 #intro {
-  /* width: 800vw; */
   left: 0;
   z-index: 0;
 }
 
 #near {
-  /* width: 1200vw; */
   left: 400vw;
   z-index: 1;
 }
 
 #speculative {
-  /* width: 900vw; */
   left: 1000vw;
   z-index: 2;
 }
 
 #outro {
-  /* width: 200vw; */
   left: 1450vw;
   z-index: 3;
 }
@@ -223,15 +205,21 @@ body {
 }
 
 
+.figma {
+	height: 100vh;
+	width: 75vw;
+	border: none;
+}
+
 .phone {
 	height: 100vh;
 	width: auto;
 	border: none;
 }
 
-.figma {
+#hirehaxx {
 	height: 100vh;
-	width: 75vw;
+	width: 50vw;
 	border: none;
 }
 
