@@ -67,6 +67,26 @@ small {
   color: white;
 }
 
+label {
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+  line-height: 2;
+  vertical-align: middle;
+  margin-left: 10px;
+  filter: drop-shadow(0 0 0.5rem black);
+}
+
+input[type=radio] {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+input:checked ~ .checkmark {
+  background-color: #D5C6FF;
+}
+
 span {
   -webkit-text-fill-color: rgba(0, 0, 0, 0); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1.5px;
@@ -94,6 +114,9 @@ mark:hover {
 #lavender {
   -webkit-text-fill-color: #D5C6FF; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 0;
-  font-weight: 500;
-  font-style: italic;
+}
+
+#mint {
+  -webkit-text-fill-color: #90FFBC; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0;
 }
