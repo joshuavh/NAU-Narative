@@ -1,24 +1,3 @@
-@font-face {
-  font-family: 'Formular';
-   src: local('Formular'),
-    local('Formular-Medium'),
-     url('Formular.otf');
-}
-
-@font-face {font-family: "Hellovetica";
-src: url("//db.onlinewebfonts.com/t/a88a60b3d148d2698fcf827348b8b6fc.eot");
-src: url("//db.onlinewebfonts.com/t/a88a60b3d148d2698fcf827348b8b6fc.eot?#iefix")
-format("embedded-opentype"),
- url("//db.onlinewebfonts.com/t/a88a60b3d148d2698fcf827348b8b6fc.woff2")
- format("woff2"), url("//db.onlinewebfonts.com/t/a88a60b3d148d2698fcf827348b8b6fc.woff")
- format("woff"), url("//db.onlinewebfonts.com/t/a88a60b3d148d2698fcf827348b8b6fc.ttf")
- format("truetype"), url("//db.onlinewebfonts.com/t/a88a60b3d148d2698fcf827348b8b6fc.svg#Hellovetica")
- format("svg"); }
-
- ::-webkit-scrollbar-thumb {
-   background: blue;
- }
-
 * {
 	padding: 0;
 	margin: 0;
@@ -274,7 +253,6 @@ body {
 
 @media only screen and (max-width: 800px) {
   .chaper {  display: none;}
-
   #mobile { display: block;}
 
 

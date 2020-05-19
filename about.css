@@ -7,7 +7,7 @@
   border: none;
   font-size: 20px;
   font-weight: 400;
-  z-index: 4;
+  z-index: 999;
 }
 
 #about:focus {outline:none;}

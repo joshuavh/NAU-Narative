@@ -1,4 +1,4 @@
-function myFunction() {
+function myButton() {
   var x = document.getElementById("aboutsection");
   if (x.style.display === "block") {
     x.style.display = "none";
