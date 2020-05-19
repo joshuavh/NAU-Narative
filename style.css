@@ -44,22 +44,23 @@ body {
 .progress-marker {
   position: fixed;
   bottom: 0;
-  height: 8px;
+  height: 20px;
   width: 8px;
-  background: white;
+  background: #90FFBC;
   z-index: 999;
+	filter: drop-shadow(0 0 0);
 }
 
 #marker1 {
-  left: 24%;
+  left: 18%;
 }
 
 #marker2 {
-  left: 55%;
+  left: 58%;
 }
 
 #marker3 {
-  left: 80%;
+  left: 90%;
 }
 
 
