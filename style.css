@@ -52,15 +52,15 @@ body {
 	filter: drop-shadow(0 0 0);
 }
 
-#marker1 {left: 30%;}
-#marker1a {left: 34%; height:5px; width:5px;}
+#marker1 {left: 26%;}
+#marker1a {left: 30%; height:5px; width:5px;}
 #marker1b {left: 42%; height: 5px; width:5px;}
 
-#marker2 {left: 52%;}
-#marker2a {left: 58%; height: 5px; width:5px;}
-#marker2b {left: 62%; height: 5px; width:5px;}
+#marker2 {left: 58%;}
+#marker2a {left: 62%; height: 5px; width:5px;}
+#marker2b {left: 70%; height: 5px; width:5px;}
 
-#marker3 {left: 70%;}
+#marker3 {left: 80%;}
 
 
 .chapter {
