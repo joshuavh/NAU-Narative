@@ -17,5 +17,5 @@ function myFunction() {
     if (width > 0) {
         scrolled = (winScroll / width) * 100;
     }
-    document.getElementById("myBar").style.width = scrolled * 1 + "%";
+    document.getElementById("myBar").style.width = scrolled * 2 + "%";
 }
