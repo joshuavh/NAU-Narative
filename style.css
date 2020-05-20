@@ -15,7 +15,7 @@ body {
 
 
 .chapter {
-  position: static;
+  position: relative;
   margin-left: 0;
   display: block;
   float: left;
@@ -31,12 +31,12 @@ body {
 
 #near {
   z-index: 1;
-  transform: translateX(-25%);
+  transform: translateX(0%);
 }
 
 #speculative {
   z-index: 2;
-  transform: translateX(-50%);
+  transform: translateX(0%);
 }
 
 #outro {
@@ -46,9 +46,10 @@ body {
 
 
 .background {
-  position: fixed;
-  width: 200%;
+  position: absolute;
+  width: 100%;
   height: 100%;
+	background-attachment: fixed;
   background-size: auto 100%;
   background-repeat: repeat-x;
   z-index: -2;
@@ -93,6 +94,7 @@ body {
   height: 100vh;
   float: left;
   margin-left: 0;
+	overflow: hidden;
 }
 
 .smallsection {
