@@ -1,0 +1,49 @@
+#logo {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  z-index: 999;
+}
+
+
+.progress-container {
+	position: fixed;
+  background: #4D4D4D;
+  width: 80%;
+	margin-left: 10%;
+  height: 2px;
+  bottom: 50px;
+  z-index: 999;
+	overflow: hidden;
+}
+
+.progress-bar {
+	position: relative;
+  height: 2px;
+  background: #D5C6FF;
+  width: 0%;
+  z-index: 999;
+}
+
+.progress-marker {
+  position: fixed;
+  bottom: 50px;
+  height: 10px;
+  width: 10px;
+  background: #D5C6FF;
+  z-index: 999;
+	filter: drop-shadow(0 0 0);
+}
+
+#marker1 {left: 23%;}
+#marker1a {left: 30%; height:5px; width:5px;}
+#marker1b {left: 42%; height: 5px; width:5px;}
+
+#marker2 {left: 58%;}
+#marker2a {left: 62%; height: 5px; width:5px;}
+#marker2b {left: 70%; height: 5px; width:5px;}
+
+#marker3 {left: 80%;}
