@@ -22,6 +22,15 @@ body {
 }
 
 
+blockquote {
+  font-size: 100px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #D5C6FF;
+  text-indent: -.4125em;
+  margin: 0;
+  padding: 0;
+}
 
 h1 {
   font-size: 100px;
@@ -29,6 +38,8 @@ h1 {
   font-weight: 400;
   color: #D5C6FF;
 }
+
+
 
 h2 {
   font-size: 80px;
@@ -38,7 +49,6 @@ h2 {
 
 }
 
-
 p {
   font-size: 30px;
   font-weight: 400;
@@ -46,6 +56,7 @@ p {
   line-height: 1.35;
   /*filter: drop-shadow(0 0 0.5rem black);*/
 }
+
 
 a {
   font-size: 30px;
