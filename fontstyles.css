@@ -41,10 +41,10 @@ h2 {
 
 p {
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 400;
   color: white;
   line-height: 1.35;
-  filter: drop-shadow(0 0 0.5rem black);
+  /*filter: drop-shadow(0 0 0.5rem black);*/
 }
 
 a {
@@ -53,7 +53,7 @@ a {
 	color: #90FFBC;
   text-decoration: none;
   line-height: 2;
-  filter: drop-shadow(0 0 0.5rem black);
+  /*filter: drop-shadow(0 0 0.5rem black);*/
 }
 
 #inline {
@@ -74,7 +74,7 @@ label {
   line-height: 2;
   vertical-align: middle;
   margin-left: 10px;
-  filter: drop-shadow(0 0 0.5rem black);
+  /*filter: drop-shadow(0 0 0.5rem black);*/
 }
 
 input[type=radio] {

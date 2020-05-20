@@ -22,11 +22,28 @@ body {
   /* display: flex;
   flex-direction: row;*/
   overflow: hidden;
-  perspective: 1px;
+	/* perspective: 1px;*/
+	transform-style: preserve-3d;
+
+
+}
+
+#intro::before {
+  z-index: 0;
+	background-image: url("img/wetransfer-colorpush-artwork_5.gif");
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*background-attachment: fixed;*/
+	background-size: auto 300%;
+	background-repeat: repeat-x;
+	z-index: -2;
+	transform: translateZ(-1px) scale(2);
 }
 
 #intro {
   z-index: 0;
+	position: relative;
 }
 
 #near {
@@ -58,10 +75,11 @@ body {
 
 #background1 {
   background-image: url("img/wetransfer-colorpush-artwork_5.gif");
+	background-position: center center;
 }
 
 #background2 {
-  background-image: url("img/wetransfer-colorpush-artwork_lite.gif");
+  background-image: url("img/wetransfer-colorpush-artwork_5_2.gif");
 }
 
 #background3 {
