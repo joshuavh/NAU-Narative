@@ -38,12 +38,12 @@
 	filter: drop-shadow(0 0 0);
 }
 
-#marker1 {left: 23%;}
-#marker1a {left: 30%; height:5px; width:5px;}
-#marker1b {left: 42%; height: 5px; width:5px;}
+#marker1 {left: 24%;}
+#marker1a {left: 38%; height:5px; width:5px;}
+#marker1b {left: 47%; height: 5px; width:5px;}
 
-#marker2 {left: 58%;}
-#marker2a {left: 62%; height: 5px; width:5px;}
-#marker2b {left: 70%; height: 5px; width:5px;}
+#marker2 {left: 51%;}
+#marker2a {left: 63%; height: 5px; width:5px;}
+#marker2b {left: 78%; height: 5px; width:5px;}
 
-#marker3 {left: 80%;}
+#marker3 {left: 82%;}
