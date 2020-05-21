@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./loader.css">
   <link rel="stylesheet" href="./fixedelements.css">
   <link rel="stylesheet" href="./fontstyles.css">
+  <link rel="stylesheet" href="./consequence.css">
   <link rel="stylesheet" href="./about.css">
   <link rel="stylesheet" href="./commentbox.css">
   <script src="./progressbar.js"></script>
@@ -70,7 +71,7 @@ $(window).on("load",function(){
     <div class="background" id="background1"></div>
 
     <div class="section intro">
-      <div class="largecontent" style="transform:translateY(-27.5%)">
+      <div class="largecontent">
         <h1 style="font-size: 60px;">Thank You for Applying</h1>
         <br>
         <h1 style="font-size: 100px;"><span>Will an algorithm <br>decide my future?</span></h1>
@@ -109,7 +110,7 @@ $(window).on("load",function(){
 
     <div class="smallsection">
       <div class="imagecontainer">
-        <img class="image"src="img/test.png" alt="test">
+        <img class="image"src="amazon_verge.jpg" alt="amazon">
       </div>
     </div>
 
@@ -174,15 +175,23 @@ $(window).on("load",function(){
       </div>
     </div>
 
-    <div class="section">
-      <div class="Option" id="A">
-        <div class="largecontent" style="font-size: 30px;">
-          Scenario A
+    <div class="smallsection">
+      <div class="largecontent">
+        <p>How do you feel after reading the report?</p>
+      </div>
+    </div>
+
+    <div class="smallsection">
+      <div class="option" id="A">
+        <div class="largecontent">
+          <h2>informed</h2>
+          <p>You are able to improve your next application and manage to get your CV in the hands of the recruiter.</p>
         </div>
       </div>
-      <div class="Option" id="B">
+      <div class="option" id="B">
         <div class="largecontent" style="font-size: 30px;">
-          Scenario B
+          <h2>unfairly treated</h2>
+          <p>You complain on twitter about the result. Many applicants chime in. As a result, the company has to change their recruiting system.</p>
         </div>
       </div>
     </div>
@@ -205,14 +214,24 @@ $(window).on("load",function(){
       </div>
     </div>
 
-    <div class="section">
+    <div class="smallsection">
       <div class="largecontent">
-        <p>What could be a possible consequence?</p>
-        <br>
-        <input type="radio" id="A" name="report" value="A">
-        <label for="A"><span id="mint">There’s a bug in the tool but he doesn’t notice and starts sending out faulty job applications.</span></label><br>
-        <input type="radio" id="B" name="report" value="B">
-        <label for="B"><span id="lavender">He gets the job but is stressed because he listed skills that he didn’t have.<span></label>
+        <p>Would you rely on this tool?</p>
+      </div>
+    </div>
+
+    <div class="smallsection">
+      <div class="option" id="A">
+        <div class="largecontent">
+          <h2>YES</h2>
+          <p>There’s a bug in the tool that you did not notice and you start sending out faulty job applications.</p>
+        </div>
+      </div>
+      <div class="option" id="B">
+        <div class="largecontent" style="font-size: 30px;">
+          <h2>NO</h2>
+          <p>Too bad. Other people use the tool to optimize their resumes and you are forced to use it as well.</p>
+        </div>
       </div>
     </div>
 
@@ -270,14 +289,24 @@ While browsing CV optimisation tools and self-branding click-bait tips, Alex not
       </div>
     </div>
 
-    <div class="section">
+    <div class="smallsection">
       <div class="largecontent">
-        <p>What could be a possible consequence?</p>
-        <br>
-        <input type="radio" id="A" name="report" value="A">
-        <label for="A"><span id="mint">He gets the job but is feels insecure.</span></label><br>
-        <input type="radio" id="B" name="report" value="B">
-        <label for="B"><span id="lavender">The human recruiter catches him cheating.<span></label>
+        <p>Do you get the job?</p>
+      </div>
+    </div>
+
+    <div class="smallsection">
+      <div class="option" id="A">
+        <div class="largecontent">
+          <h2>YES</h2>
+          <p>You get the job but do not feel comfortable at your new workplace.</p>
+        </div>
+      </div>
+      <div class="option" id="B">
+        <div class="largecontent" style="font-size: 30px;">
+          <h2>NO</h2>
+          <p>The human recruiter catches you cheating. The hiring process gets stopped and a family friend gets the job.</p>
+        </div>
       </div>
     </div>
 
@@ -311,17 +340,26 @@ While browsing CV optimisation tools and self-branding click-bait tips, Alex not
       </div>
     </div>
 
-    <div class="section">
+    <div class="smallsection">
       <div class="largecontent">
-        <p>What could be a possible consequence?</p>
-        <br>
-        <input type="radio" id="A" name="report" value="A">
-        <label for="A"><span id="mint">She avoids an age bias and gets the job.</span></label><br>
-        <input type="radio" id="B" name="report" value="B">
-        <label for="B"><span id="lavender">She hides too much relevant information and gets rejected.<span></label>
+        <p>Does this help your chances?</p>
       </div>
     </div>
 
+    <div class="smallsection">
+      <div class="option" id="A">
+        <div class="largecontent">
+          <h2>YES</h2>
+          <p>You avoid an age bias and get the job.</p>
+        </div>
+      </div>
+      <div class="option" id="B">
+        <div class="largecontent" style="font-size: 30px;">
+          <h2>NO</h2>
+          <p>You hide too much relevant information and get rejected.</p>
+        </div>
+      </div>
+    </div>
 
 
 <div class="chapter" id="outro">

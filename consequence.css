@@ -1,0 +1,31 @@
+.option{
+	height: 50%;
+	width: 100;
+	position: relative;
+	margin: auto;
+}
+
+.option p  {
+	display: none;
+	color: #242424;
+}
+
+.option:hover p  {
+	display: block;
+}
+
+
+
+
+
+#A:hover  {
+	background-color: #90FFBC;
+}
+
+#B:hover  {
+	background-color: #D5C6FF;
+}
+
+.option:hover h2 {
+	display: none;
+}

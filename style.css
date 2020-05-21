@@ -10,7 +10,7 @@
 body {
     background-color: black;
     overflow: hidden;
-    width: 3500vw;
+    width: 3800vw;
 }
 
 
@@ -135,50 +135,37 @@ body {
 
 
 .content {
-	height: 100%;
+	height: auto;
 	width: 50%;
 	position: relative;
 	margin: auto;
   top: 50%;
-  -ms-transform: translateY(-20%);
-  transform: translateY(-20%);
+  -ms-transform: translateY(-66%);
+  transform: translateY(-66%);
 }
 
 .largecontent {
-  height: 100%;
+  height: auto;
   width: 80%;
   position: relative;
   margin: auto;
   vertical-align: middle;
   top: 50%;
-  -ms-transform: translateY(-25%);
-  transform: translateY(-25%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .smallcontent {
-  height: 100%;
+  height: auto;
   width: 100;
   position: relative;
   margin: auto;
   padding-left: 20px;
   top: 50%;
-  -ms-transform: translateY(-25%);
-  transform: translateY(-25%);
+  -ms-transform: translateY(-66%);
+  transform: translateY(-66%);
 }
 
-.Option{
-	height: 50%;
-	width: 100;
-	position: relative;
-	margin: auto;
-}
-#A:hover  {
-	background-color: #D5C6FF;
-}
-
-#B:hover  {
-	background-color: #90FFBC;
-}
 
 
 .figma {
