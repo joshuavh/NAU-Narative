@@ -140,8 +140,8 @@ body {
 	position: relative;
 	margin: auto;
   top: 50%;
-  -ms-transform: translateY(-66%);
-  transform: translateY(-66%);
+  -ms-transform: translateY(-60%);
+  transform: translateY(-60%);
 }
 
 .largecontent {
@@ -162,8 +162,8 @@ body {
   margin: auto;
   padding-left: 20px;
   top: 50%;
-  -ms-transform: translateY(-66%);
-  transform: translateY(-66%);
+  -ms-transform: translateY(-60%);
+  transform: translateY(-60%);
 }
 
 
