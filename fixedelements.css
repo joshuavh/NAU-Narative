@@ -48,15 +48,15 @@
 }
 
 
-#marker1 {left: 24%; height: 10px; width: 10px;}
-#marker1a {left: 38%;}
-#marker1b {left: 47%;}
+#marker1 {left: 25%; height: 10px; width: 10px;}
+#marker1a {left: 40%;}
+#marker1b {left: 49%;}
 
-#marker2 {left: 51%; height: 10px; width:10px;}
-#marker2a {left: 63%;}
-#marker2b {left: 78%;}
+#marker2 {left: 54%; height: 10px; width:10px;}
+#marker2a {left: 66%;}
+#marker2b {left: 82%;}
 
-#marker3 {left: 82%; height: 10px; width:10px;}
+#marker3 {left: 88%; height: 10px; width:10px;}
 
 .progress-marker:hover {
   background: #90FFBC;

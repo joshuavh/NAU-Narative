@@ -7,112 +7,46 @@
 
 }
 
-body {
-    background-color: black;
-    overflow: hidden;
-    width: 3500vw;
-}
+body{
+	  margin: 0;
+		width: 3300vw;
+	  height: 100vh;
+	  overflow: hidden;
+	}
 
+.main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 
 .chapter {
-  position: relative;
   margin-left: 0;
-  display: block;
-  float: left;
-  /* display: flex;
-  flex-direction: row;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
   overflow: hidden;
-	/* perspective: 1px;*/
-	transform-style: preserve-3d;
-}
-
-.parallax-wrapper::before {
-    content:"";
-    width: 100vw;
-    height: 100vh;
-    top:0;
-    left:0;
-    background-image: url("/your-bkg.png");
-    position: absolute;
-    z-index: -1;
-}
-
-#intro::before {
-  z-index: 0;
-	background-image: url("img/wetransfer-colorpush-artwork_5.gif");
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	/*background-attachment: fixed;*/
-	background-size: auto 300%;
+	background-size: auto 150%;
 	background-repeat: repeat-x;
-	z-index: -2;
-	transform: translateZ(-1px) scale(2);
+	background-position: 0% 0%;
 }
 
-#intro {
-  z-index: 0;
-	position: relative;
+
+.intro {
+	background-image: url("img/wetransfer-colorpush-artwork_5.gif");
 }
 
 #near {
-  z-index: 1;
-  transform: translateX(0%);
+  background-image: url("img/wetransfer-colorpush_3.gif");
 }
 
 #speculative {
-  z-index: 2;
-  transform: translateX(0%);
+	background-image: url("img/wetransfer-colorpush-artwork_5.gif");
 }
 
 #outro {
-  z-index: 3;
-  transform: translateX(0%);
-}
-
-
-.background {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: auto 200%;
-  background-repeat: repeat-x;
-  z-index: -2;
-  /*transform: translateZ(-1px) scale(2);*/
-	/*background-attachment: fixed;*/
-}
-
-#background1 {
-  background-image: url("img/wetransfer-colorpush-artwork_5.gif");
-}
-
-#background2 {
-  background-image: url("img/wetransfer-colorpush_3.gif");
-	background-size: auto 150%;
-
-}
-
-#background3 {
-  background-image: url("img/wetransfer-colorpush-artwork_5.gif");
-}
-
-#background4 {
-  background-color: black;
-}
-
-
-
-.seperator {
-  display: block;
-  position: relative;
-  height: 100vh;
-  width: 20px;
-  left: -9px;
-  float: left;
-  margin-left: 0;
-  background-image: url("img/line2.png");
-  background-repeat: repeat-y;
-  z-index: 2;
+	background-color: black;
 }
 
 
@@ -139,9 +73,10 @@ body {
 	width: 50%;
 	position: relative;
 	margin: auto;
+	padding-bottom: 10vh;
   top: 50%;
-  -ms-transform: translateY(-60%);
-  transform: translateY(-60%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .largecontent {
@@ -150,6 +85,7 @@ body {
   position: relative;
   margin: auto;
   vertical-align: middle;
+	padding-bottom: 10vh;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -161,11 +97,11 @@ body {
   position: relative;
   margin: auto;
   padding-left: 20px;
+	padding-bottom: 10vh;
   top: 50%;
-  -ms-transform: translateY(-60%);
-  transform: translateY(-60%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
-
 
 
 .figma {
@@ -186,6 +122,18 @@ body {
 	border: none;
 }
 
+.seperator {
+  display: block;
+  position: relative;
+  height: 100vh;
+  width: 20px;
+  left: -9px;
+  float: left;
+  margin-left: 0;
+  background-image: url("img/line2.png");
+  background-repeat: repeat-y;
+  z-index: 2;
+}
 
 .imagecontainer {
   position: relative;
@@ -203,10 +151,11 @@ body {
 }
 
 .image {
+		border: 1px solid;
     text-align: center;
     margin: auto;
     max-width:100%;
-    max-height:100%;
+    max-height:99%;
 		border-radius: 3px;
 
 }

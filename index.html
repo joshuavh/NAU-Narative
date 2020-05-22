@@ -14,10 +14,9 @@
   <link rel="stylesheet" href="./consequence.css">
   <link rel="stylesheet" href="./about.css">
   <link rel="stylesheet" href="./commentbox.css">
-  <script src="./progressbar.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src="./script.js"></script>
-  <script src="./about.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -56,19 +55,18 @@ $(window).on("load",function(){
 
 <div class="progress-container">
   <div class="progress-bar" id="myBar"></div>
-  <a href="#near" div class="progress-marker" id="marker1"><small>near_future</small></a>
-  <a href="#near" div class="progress-marker" id="marker1a"><small>Feedback_Report</small></a>
-  <a href="#near" div class="progress-marker" id="marker1b"><small>CV_Check</small></a>
-  <a href="#speculative" div class="progress-marker" id="marker2"><small>speculative_tomorrow</small></a>
-  <a href="#speculative" div class="progress-marker" id="marker2a"><small>HireHaxx</small></a>
-  <a href="#speculative" div class="progress-marker" id="marker2b"><small>Incognito_CV</small></a>
+  <a href="#near" div class="progress-marker" id="marker1"><small>near&nbsp;future</small></a>
+  <a href="#feedbackreport" div class="progress-marker" id="marker1a"><small>Feedback&nbsp;Report</small></a>
+  <a href="#cvcheck" div class="progress-marker" id="marker1b"><small>CV&nbsp;Check</small></a>
+  <a href="#speculative" div class="progress-marker" id="marker2"><small>speculative&nbsp;tomorrow</small></a>
+  <a href="#hirehaxx" div class="progress-marker" id="marker2a"><small>HireHaxx</small></a>
+  <a href="#incognitocv" div class="progress-marker" id="marker2b"><small>Incognito&nbsp;CV</small></a>
   <a href="#outro" div class="progress-marker" id="marker3"><small>Outro</small></a>
 </div>
 
+<div class="main">
 
-<div class="chapter" id="intro">
-
-    <div class="background" id="background1"></div>
+<div class="chapter intro" id="intro">
 
     <div class="section intro">
       <div class="largecontent">
@@ -124,8 +122,6 @@ $(window).on("load",function(){
 
 <div class="chapter" id="near" style="-webkit-text-fill-color: #242424 !important;" >
 
-    <div class="background" id="background2"></div>
-
     <div class="seperator"></div>
     <div class="smallsection">
       <div class="smallcontent">
@@ -170,7 +166,7 @@ $(window).on("load",function(){
       </div>
     </div>
 
-    <div class="smallsection">
+    <div class="smallsection" id="feedbackreport">
       <div class="phone">
         <iframe class="phone" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCzbZLuRwuzHf66wLP2Zl2G%2FFeedback-Report%3Fnode-id%3D13431%253A2%26scaling%3Dscale-down-width%26hide-ui=1"></iframe>
       </div>
@@ -210,7 +206,7 @@ $(window).on("load",function(){
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="cvcheck">
       <div class="figma">
         <iframe class="figma" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwiLA5IcR5lrngMdUXm6gME%2FCV-Check%3Fnode-id%3D26%253A256%26scaling%3Dscale-down-width%26hide-ui=1"></iframe>
       </div>
@@ -242,8 +238,6 @@ $(window).on("load",function(){
 </div>
 
 <div class="chapter" id="speculative">
-
-    <div class="background" id="background3"></div>
 
     <div class="seperator"></div>
     <div class="smallsection">
@@ -338,7 +332,7 @@ While browsing CV optimisation tools and self-branding click-bait tips, you noti
       </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="incognitocv">
       <div class="figma">
         <iframe class="figma" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXOlOmswKnUoWRUifug69Sa%2FIncognito-CV%3Fnode-id%3D254%253A772%26scaling%3Dscale-down-width%26hide-ui=1"></iframe>
       </div>
@@ -368,8 +362,6 @@ While browsing CV optimisation tools and self-branding click-bait tips, you noti
 
 <div class="chapter" id="outro">
 
-    <div class="background" id="background4"></div>
-
     <div class="section">
       <div class="content">
         <p>The journey through these stories are little windows of understanding and engagement with diverse possibilities and complex futures of automated recruitment. We hope that this project triggers a plurality of public reactions leading towards concrete actions, be it caution, protest or hope.</p>
@@ -389,8 +381,13 @@ While browsing CV optimisation tools and self-branding click-bait tips, you noti
     <!-- end www.htmlcommentbox.com -->
 
 </div>
+</div>
 
-
+  <script src="./parallax.js"></script>
+  <script src="./scrolling.js"></script>
+  <script src="./about.js"></script>
+  <script src="./progressbar.js"></script>
 
 </body>
+
 </html>
