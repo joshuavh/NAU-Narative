@@ -4,7 +4,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
-
 }
 
 body{
@@ -57,7 +56,6 @@ body{
   height: 100vh;
   float: left;
   margin-left: 0;
-	overflow: hidden;
 }
 
 .smallsection {
@@ -66,6 +64,7 @@ body{
   height: 100vh;
   float: left;
   margin-left: 0;
+	overflow: visible;
 }
 
 
@@ -78,6 +77,7 @@ body{
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+	overflow: visible;
 }
 
 .largecontent {
@@ -150,6 +150,7 @@ body{
   width: 100%;
   margin: auto;
   top: 50%;
+	overflow: visible;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   -webkit-transition: all 0.2s ease;
@@ -159,12 +160,14 @@ body{
 }
 
 .image {
-		border: 1px solid;
     text-align: center;
     margin: auto;
     max-width:100%;
     max-height:99%;
 		border-radius: 3px;
+		-webkit-box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
+box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
 
 }
 
