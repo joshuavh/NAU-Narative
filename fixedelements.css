@@ -47,6 +47,7 @@
   text-align: center;
 }
 
+#marker0 {left: 11%; height: 10px; width: 10px;}
 
 #marker1 {left: 25%; height: 10px; width: 10px;}
 #marker1a {left: 40%;}
@@ -54,9 +55,9 @@
 
 #marker2 {left: 54%; height: 10px; width:10px;}
 #marker2a {left: 66%;}
-#marker2b {left: 82%;}
+#marker2b {left: 83%;}
 
-#marker3 {left: 88%; height: 10px; width:10px;}
+#marker3 {left: 86%; height: 10px; width:10px;}
 
 .progress-marker:hover {
   background: #90FFBC;

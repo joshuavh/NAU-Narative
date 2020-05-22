@@ -38,11 +38,11 @@ body{
 	background-image: url("./img/wetransfer-colorpush-artwork_5.gif");
 }
 
-#near {
+#present {
   background-image: url("./img/wetransfer-colorpush_3.gif");
 }
 
-#speculative {
+#tomorrow {
 	background-image: url("./img/wetransfer-colorpush-artwork_5.gif");
 }
 
@@ -132,19 +132,15 @@ body{
 		border: none;
 		background: none transparent;
 	}
-}
 
 .seperator {
   display: block;
   position: relative;
   height: 100vh;
-  width: 20px;
-  left: -9px;
+  width: 1px;
   float: left;
   margin-left: 0;
-  background-image: url("img/line2.png");
-  background-repeat: repeat-y;
-  z-index: 2;
+	background: rgba(255,255,255,0.33);
 }
 
 .imagecontainer {

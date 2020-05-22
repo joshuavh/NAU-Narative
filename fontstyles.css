@@ -91,7 +91,7 @@ input:checked ~ .checkmark {
 
 span {
   -webkit-text-fill-color: rgba(0, 0, 0, 0); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-width: 1.2px;
   -webkit-text-stroke-color: white;
 }
 
