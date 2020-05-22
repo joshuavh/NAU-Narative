@@ -18,6 +18,7 @@ body{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+	background-color: black;
 }
 
 .chapter {
@@ -33,16 +34,16 @@ body{
 }
 
 
-.intro {
-	background-image: url("img/wetransfer-colorpush-artwork_5.gif");
+#intro {
+	background-image: url("./img/wetransfer-colorpush-artwork_5.gif");
 }
 
 #near {
-  background-image: url("img/wetransfer-colorpush_3.gif");
+  background-image: url("./img/wetransfer-colorpush_3.gif");
 }
 
 #speculative {
-	background-image: url("img/wetransfer-colorpush-artwork_5.gif");
+	background-image: url("./img/wetransfer-colorpush-artwork_5.gif");
 }
 
 #outro {
@@ -96,7 +97,7 @@ body{
   width: 100;
   position: relative;
   margin: auto;
-  padding-left: 20px;
+  padding-left: 40px;
 	padding-bottom: 10vh;
   top: 50%;
   -ms-transform: translateY(-50%);
