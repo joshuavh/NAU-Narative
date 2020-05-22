@@ -22,16 +22,6 @@ body {
 }
 
 
-blockquote {
-  font-size: 100px;
-  line-height: 1.2;
-  font-weight: 400;
-  color: #D5C6FF;
-  text-indent: -.4125em;
-  margin: 0;
-  padding: 0;
-}
-
 h1 {
   font-size: 100px;
   line-height: 1.2;
@@ -47,6 +37,13 @@ h2 {
   font-weight: 400;
   color: white;
 
+}
+
+blockquote {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  line-height: 1.35;
 }
 
 p {
