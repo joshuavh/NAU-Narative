@@ -60,7 +60,6 @@ a {
 	color: #90FFBC;
   text-decoration: none;
   line-height: 2;
-  /*filter: drop-shadow(0 0 0.5rem black);*/
 }
 
 #inline {
@@ -72,6 +71,7 @@ small {
   font-size: 20px;
   font-weight: 400;
   color: white;
+  mix-blend-mode: difference;
 }
 
 label {
@@ -81,7 +81,6 @@ label {
   line-height: 2;
   vertical-align: middle;
   margin-left: 10px;
-  /*filter: drop-shadow(0 0 0.5rem black);*/
 }
 
 input[type=radio] {
