@@ -124,14 +124,21 @@ body{
 
 #hirehaxx {
 		position: relative;
-		height: 80vh;
-		width: 30.2vw;
+		height: 600px;
+		width: 400px;
 		top: 50%;
 		-ms-transform: translateY(-50%);
 		transform: translateY(-50%);
 		border: none;
 		background: none transparent;
+		-webkit-box-shadow: 0px 5px 50px 5px rgba(255,255,255,0.5);
+		-moz-box-shadow: 0px 5px 50px 5px rgba(255,255,255,0.5);
+		box-shadow: 0px 5px 50px 5px rgba(255,255,255,0.5);
 	}
+
+.hirehaxx {
+	overflow:visible;
+}
 
 .seperator {
   display: block;
