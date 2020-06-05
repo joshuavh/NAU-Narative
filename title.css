@@ -1,6 +1,6 @@
 #titlesection1 {
   display: block;
-  width: 45vw;
+  width: 50vw;
   height: 100vh;
   float: left;
   margin-left: 0;
@@ -9,7 +9,7 @@
 
 #titlesection2 {
   display: block;
-  width: 55vw;
+  width: 50vw;
   height: 100vh;
   float: left;
   margin-left: 0;
@@ -29,9 +29,9 @@
 
 #title2 {
   height: auto;
-  width: 80%;
+  width: 90%;
   position: relative;
-  margin-right: 20%;
+  margin-right: 10%;
   vertical-align: left;
 	padding-bottom: 10vh;
   top: 50%;
