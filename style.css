@@ -178,20 +178,10 @@ box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
 
 }
 
-.videocontainer {
-  position: relative;
-  height: 80vh;
-  width: auto;
-  margin: auto;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+#bm {
+	position: absolute;
+	height: 80vh;
 }
-
-.video {
-  height: 100%;
-}
-
 
 .imagecontainer:hover {
     height: 80vh;
