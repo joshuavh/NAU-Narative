@@ -178,13 +178,6 @@ box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
 
 }
 
-#bm {
-	position: absolute;
-  height: 80vh;
-  margin: auto;
-	z-index: 0;
-}
-
 .imagecontainer:hover {
     height: 80vh;
 }
