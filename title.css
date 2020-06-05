@@ -34,13 +34,13 @@
   margin: auto;
   vertical-align: left;
 	padding-bottom: 10vh;
-  top: 28%;
+  top: 33%;
 }
 
 #bm {
 	position: absolute;
-  height: 120vh;
-  left: -33%;
+  height: 150vh;
+  left: -50%;
   margin: auto;
 	z-index: 0;
   top: 50%;
