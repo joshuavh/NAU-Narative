@@ -41,8 +41,8 @@
 
 #bm {
 	position: absolute;
-  width: 125vw;
-  left: -50%;
+  width: 100vw;
+  left: -25%;
   margin: auto;
 	z-index: 0;
   top: 50%;
