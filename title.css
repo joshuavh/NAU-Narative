@@ -1,6 +1,6 @@
 #titlesection1 {
   display: block;
-  width: 50vw;
+  width: 40vw;
   height: 100vh;
   float: left;
   margin-left: 0;
@@ -9,7 +9,7 @@
 
 #titlesection2 {
   display: block;
-  width: 50vw;
+  width: 60vw;
   height: 100vh;
   float: left;
   margin-left: 0;
@@ -34,12 +34,14 @@
   margin: auto;
   vertical-align: left;
 	padding-bottom: 10vh;
-  top: 33%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 #bm {
 	position: absolute;
-  width: 125vw;
+  width: 150vw;
   left: -50%;
   margin: auto;
 	z-index: 0;
