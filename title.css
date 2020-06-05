@@ -39,8 +39,7 @@
 
 #bm {
 	position: absolute;
-  height: 200vh;
-  width: 200vw;
+  width: 100vw;
   left: -33%;
   margin: auto;
 	z-index: 0;
