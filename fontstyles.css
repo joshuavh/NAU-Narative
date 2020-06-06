@@ -27,7 +27,6 @@ h1 {
   line-height: 1.2;
   font-weight: 400;
   color: #D5C6FF;
-  text-shadow:0 0 0.5rem rgba(255, 255, 255, 0.33);
 }
 
 
@@ -37,7 +36,6 @@ h2 {
   line-height: 1.2;
   font-weight: 400;
   color: white;
-  text-shadow:0 0 0.5rem rgba(255, 255, 255, 0.33);
 
 }
 
