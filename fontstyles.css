@@ -24,18 +24,20 @@ body {
 
 h1 {
   font-size: 100px;
-  line-height: 1.2;
+  line-height: 1.1;
   font-weight: 400;
   color: #D5C6FF;
+  overflow: visible;
 }
 
 
 
 h2 {
   font-size: 80px;
-  line-height: 1.2;
+  line-height: 1.1;
   font-weight: 400;
   color: white;
+  overflow: visible;
 
 }
 

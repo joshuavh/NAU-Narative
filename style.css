@@ -27,8 +27,8 @@ body{
 	align-items: center;
 	flex-shrink: 0;
   overflow: hidden;
-	background-repeat: repeat-x;
-	background-position: 0 50%;
+	background-repeat: repeat;
+	background-position: 0 -25%;
 }
 
 
