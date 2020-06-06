@@ -27,7 +27,6 @@ body{
 	align-items: center;
 	flex-shrink: 0;
   overflow: hidden;
-	background-size: auto 150%;
 	background-repeat: repeat-x;
 	background-position: 0 50%;
 }
@@ -35,14 +34,17 @@ body{
 
 #intro {
 	background-image: url("./img/wetransfer-colorpush-artwork_5.gif");
+	background-size: auto 175%;
 }
 
 #present {
   background-image: url("./img/wetransfer-colorpush_3.gif");
+	background-size: auto 150%;
 }
 
 #tomorrow {
 	background-image: url("./img/wetransfer-colorpush-artwork_5.gif");
+	background-size: auto 175%;
 }
 
 #outro {
