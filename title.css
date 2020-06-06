@@ -42,10 +42,10 @@
 #bm {
 	position: absolute;
   width: 85vw;
-  left: -15%;
+  left: -17%;
   margin: auto;
 	z-index: 0;
-  top: 50%;
+  top: 48%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
