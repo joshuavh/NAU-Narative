@@ -1,6 +1,6 @@
 #titlesection1 {
   display: block;
-  width: 40vw;
+  width: 42vw;
   height: 100vh;
   float: left;
   margin-left: 0;
@@ -9,7 +9,7 @@
 
 #titlesection2 {
   display: block;
-  width: 60vw;
+  width: 58vw;
   height: 100vh;
   float: left;
   margin-left: 0;
@@ -23,17 +23,17 @@
   position: relative;
   margin-left: 10%;
   vertical-align: left;
-	padding-bottom: 10vh;
+	padding-bottom: 5vh;
   top: 28%;
 }
 
 #title2 {
   height: auto;
-  width: 90%;
+  width: 80%;
   position: relative;
-  margin-right: 10%;
+  margin-right: 20%;
   vertical-align: left;
-	padding-bottom: 10vh;
+	padding-bottom: 5vh;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -42,7 +42,7 @@
 #bm {
 	position: absolute;
   width: 75vw;
-  left: -17%;
+  left: -16%;
   margin: auto;
 	z-index: 0;
   top: 50%;
