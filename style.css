@@ -129,8 +129,8 @@ body{
 
 #hirehaxx {
 		position: relative;
-		height: 600px;
-		width: 400px;
+		height: 540px;
+		width: 360px;
 		top: 50%;
 		-ms-transform: translateY(-50%);
 		transform: translateY(-50%);
