@@ -122,9 +122,15 @@ body{
 }
 
 .phone {
-	height: 100vh;
-	width: auto;
+	position: relative;
+	width: 270px;
+	height: 540px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 	border: none;
+	background: none transparent;
+	border-radius: 42px;
 }
 
 #hirehaxx {
