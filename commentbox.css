@@ -1,9 +1,11 @@
 .commentbox {
   display: block;
   width: 100vw;
-  height: 100vh;
+  height: 95vh;
+  padding-bottom: 5vh;
   float: left;
-  margin-left: 0;
+  margin-left: 0
+  overflow: auto;
 }
 
 
