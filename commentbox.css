@@ -97,4 +97,5 @@ textarea {
   cursor: pointer;
   font-weight: 500;
   color: black;
+  display: inline;
 }
