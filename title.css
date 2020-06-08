@@ -17,9 +17,9 @@
 
 #title1 {
   height: auto;
-  width: 90%;
+  width: 85%;
   position: relative;
-  margin-left: 10%;
+  margin-left: 15%;
   vertical-align: left;
 	padding-bottom: 5vh;
   top: 28%;
@@ -38,12 +38,11 @@
 }
 
 #bm {
-	position: absolute;
-  width: 960px;
-  left: -10%;
-  margin: auto;
-	z-index: 0;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  height: auto;
+  width: 85%;
+  position: relative;
+  margin-left: 15%;
+  vertical-align: left;
+	padding-bottom: 5vh;
+  top: 28%;
 }
