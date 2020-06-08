@@ -115,7 +115,6 @@ body{
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	border: none;
-	background: none transparent;
 	-webkit-box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
 	box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
@@ -129,8 +128,10 @@ body{
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	border: none;
-	background: none transparent;
 	border-radius: 42px;
+	-webkit-box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
 }
 
 #hirehaxx {
@@ -141,7 +142,6 @@ body{
 		-ms-transform: translateY(-50%);
 		transform: translateY(-50%);
 		border: none;
-		background: none transparent;
 		-webkit-box-shadow: 0px 5px 50px 5px rgba(255,255,255,0.2);
 		-moz-box-shadow: 0px 5px 30px 5px rgba(255,255,255,0.2);
 		box-shadow: 0px 5px 50px 5px rgba(255,255,255,0.2);
@@ -161,45 +161,44 @@ body{
 	background: rgba(255,255,255,0.33);
 }
 
-.imagecontainer {
-  position: relative;
-  text-align: center;
-  height: 60vh;
-  width: 100%;
-  margin: auto;
-  top: 50%;
-	overflow: visible;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  -webkit-transition: all 0.2s ease;
-   -moz-transition: all 0.2s ease;
-   -o-transition: all 0.2s ease;
-   transition: all 0.2s ease;
-}
 
 .image {
+		position: relative;
     text-align: center;
     margin: auto;
-    max-width:100%;
-    max-height:99%;
+    max-width:80%;
+    max-height:60%;
 		border-radius: 3px;
+		padding: bottom: 5vh;
+		top: 50%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
 		-webkit-box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
 		-moz-box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
 		box-shadow: 0px 5px 50px 5px rgba(0,0,0,0.2);
+		-webkit-transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease;
+		-o-transition: all 0.2s ease;
+		transition: all 0.2s ease;
 }
 
-.imagecontainer:hover {
-    height: 80vh;
+.image:hover {
+		max-width:95%;
+		max-height:80%;
+		width: auto;
 }
 
 
 #mobile {
   display: none;
+	position: fixed;
 }
 
 @media only screen and (max-width: 1000px) {
   .chapter {  display: none;}
 	#bm {  display: none;}
+	.progress-container { display: none;}
   #mobile { display: block;}
 
 }
