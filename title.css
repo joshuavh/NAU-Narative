@@ -15,21 +15,11 @@
 }
 
 
-#title1 {
+#bm {
   height: auto;
-  width: 85%;
+  width: 960px;
   position: relative;
-  margin-left: 15%;
-  vertical-align: left;
-	padding-bottom: 5vh;
-  top: 28%;
-}
-
-#title2 {
-  height: auto;
-  width: 85%;
-  position: relative;
-  margin-right: 15%;
+  margin-left: 10vw;
   vertical-align: left;
 	padding-bottom: 5vh;
   top: 50%;
@@ -37,12 +27,13 @@
   transform: translateY(-50%);
 }
 
-#bm {
+#title2 {
   height: auto;
-  width: 85%;
+  width: 45vw;
   position: relative;
-  margin-left: 15%;
   vertical-align: left;
 	padding-bottom: 5vh;
-  top: 28%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
