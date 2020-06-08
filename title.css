@@ -2,8 +2,7 @@
   display: block;
   width: 44vw;
   height: 100vh;
-  float: left;
-  margin-left: 0;
+  margin: auto;
 	overflow: visible;
 }
 
@@ -11,7 +10,6 @@
   display: block;
   width: 56vw;
   height: 100vh;
-  float: left;
   margin-left: 0;
 	overflow: visible;
 }
