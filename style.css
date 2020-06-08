@@ -33,17 +33,17 @@ body{
 
 
 #intro {
-	background-image: url("./img/wetransfer-colorpush-artwork_5_rotated.gif");
+	background-image: url("./img/bg1.gif");
 	background-size: auto 175%;
 }
 
 #present {
-  background-image: url("./img/wetransfer-colorpush_3.gif");
+  background-image: url("./img/bg2.gif");
 	background-size: auto 150%;
 }
 
 #tomorrow {
-	background-image: url("./img/wetransfer-colorpush-artwork_5.gif");
+	background-image: url("./img/bg3.gif");
 	background-size: auto 175%;
 }
 

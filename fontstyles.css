@@ -43,8 +43,8 @@ h2 {
 
 
 p {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 28px;
+  font-weight: 300;
   color: white;
   line-height: 1.35;
   /*text-shadow:0 0 0.5rem rgba(255, 255, 255, 0.33);*/
@@ -57,7 +57,7 @@ p {
 
 
 a {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 300;
 	color: #90FFBC;
   text-decoration: none;
