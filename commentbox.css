@@ -5,7 +5,7 @@
   padding-bottom: 5vh;
   float: left;
   margin-left: 0
-  overflow: auto;
+  overflow-y: auto;
 }
 
 
@@ -18,7 +18,7 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   color: white;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 
