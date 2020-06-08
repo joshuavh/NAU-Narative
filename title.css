@@ -19,8 +19,8 @@
   height: auto;
   width: 960px;
   position: relative;
-  margin-left: 10vw;
-  vertical-align: left;
+  margin-right: 10vw;
+  vertical-align: right;
 	padding-bottom: 5vh;
   top: 50%;
   -ms-transform: translateY(-50%);
