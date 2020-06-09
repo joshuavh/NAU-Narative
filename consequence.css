@@ -19,6 +19,10 @@
 	display: block;
 }
 
+.option:hover span  {
+	display: none;
+}
+
 
 #A:hover  {
 	background-color: #90FFBC;

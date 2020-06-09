@@ -110,4 +110,5 @@ mark:hover {
 #mint {
   -webkit-text-fill-color: #90FFBC; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 0;
+  font-weight: 500;
 }
