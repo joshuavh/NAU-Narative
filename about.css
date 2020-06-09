@@ -27,3 +27,7 @@
   z-index: 998;
   display: none;
 }
+
+#aboutsection a {
+  font-size: 20px;
+}
