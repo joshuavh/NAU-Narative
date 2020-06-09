@@ -1,8 +1,13 @@
 .option{
 	height: 50%;
 	width: 100;
+	top: 0%;
 	position: relative;
 	margin: auto;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
 }
 
 .option p  {
@@ -15,17 +20,21 @@
 }
 
 
-
-
-
 #A:hover  {
 	background-color: #90FFBC;
+	height: 100%;
 }
 
 #B:hover  {
 	background-color: #D5C6FF;
+	height: 100%;
+	top: -50%;
 }
 
+
 .option:hover h2 {
-	display: none;
+	font-size: 28px;
+	color: black;
+	font-weight: 600;
+	line-height: 2;
 }
