@@ -12,53 +12,60 @@
 
 .progress-container {
 	position: fixed;
-  background: gray;
-  width: 80%;
+  background: #4a4a4a;
+  width: 80vw;
 	margin-left: 10%;
-  height: 2px;
-  bottom: 40px;
-  z-index: 999;
-  overflow: hidden;
-}
-
-.progress-bar {
-	position: relative;
-  height: 2px;
-  background: #7000FF;
-  width: 0%;
-  z-index: 999;
-}
-
-.progress-marker {
-  position: fixed;
-  bottom: 40px;
-  height: 5px;
-  width: 5px;
-  background: gray;
+  height: 1px;
+  top: 94%;
+  -ms-transform: translateY(-50%);
+	transform: translateY(-50%);
   z-index: 998;
   overflow: visible;
 }
 
-.progress-marker small {
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0);
-  text-align: center;
+.progress-bar {
+	position: relative;
+  height: 1px;
+  background: #7000FF;
+  width: 0%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 998;
 }
 
-#marker0 {left: 11%; height: 10px; width: 10px;}
+.progress-marker {
+  position: fixed;
+  height: 6px;
+  width: 6px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 999;
+  overflow: visible;
+  line-height: 2;
+}
 
-#marker1 {left: 25.5%; height: 10px; width: 10px;}
-#marker1a {left: 40%;}
-#marker1b {left: 49%;}
+.progress-marker small {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0);
+}
 
-#marker2 {left: 54%; height: 10px; width:10px;}
-#marker2a {left: 66%;}
-#marker2b {left: 83%;}
+#marker0 {left: 1.4%; height: 10px; width: 10px;}
 
-#marker3 {left: 86%; height: 10px; width:10px;}
+#marker1 {left: 16.5%; height: 10px; width: 10px;}
+#marker1a {left: 35%;}
+#marker1b {left: 46%;}
+
+#marker2 {left: 52.5%; height: 10px; width:10px;}
+#marker2a {left: 67.5%;}
+#marker2b {left: 87.5%;}
+
+#marker3 {left: 95%; height: 10px; width:10px;}
 
 .progress-marker:hover {
-  background: #90FFBC;
+  background: #90FFBC !important;
   width: 10px;
   height: 10px;
 }
