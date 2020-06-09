@@ -8,7 +8,7 @@
 
 body{
 	  margin: 0;
-		width: 3300vw;
+		width: 3400vw;
 	  height: 100vh;
 	  overflow: hidden;
 		background-color: black;
@@ -83,6 +83,14 @@ body{
   transform: translateY(-50%);
 }
 
+
+.spacer {
+	height: auto;
+	width: 25vw;
+	position: relative;
+}
+
+
 .largecontent {
   height: auto;
   width: 80%;
@@ -92,14 +100,15 @@ body{
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+	overflow: visible;
 }
 
 .smallcontent {
   height: auto;
-  width: 100%;
+  width: 90%;
+	padding-left: 10%;
   position: relative;
   margin: auto;
-  padding-left: 50px;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);

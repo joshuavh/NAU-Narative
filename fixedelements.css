@@ -43,7 +43,7 @@
   transform: translateY(-50%);
   z-index: 999;
   overflow: visible;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .progress-marker small {
