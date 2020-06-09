@@ -59,6 +59,7 @@ body{
   float: left;
   margin-left: 0;
 	overflow: visible;
+	padding-bottom: 10vh;
 }
 
 .smallsection {
@@ -68,6 +69,7 @@ body{
   float: left;
   margin-left: 0;
 	overflow: visible;
+	padding-bottom: 10vh;
 }
 
 
@@ -76,7 +78,6 @@ body{
 	width: 50%;
 	position: relative;
 	margin: auto;
-	padding-bottom: 10vh;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -88,7 +89,6 @@ body{
   position: relative;
   margin: auto;
   vertical-align: middle;
-	padding-bottom: 10vh;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -100,7 +100,6 @@ body{
   position: relative;
   margin: auto;
   padding-left: 50px;
-	padding-bottom: 10vh;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -169,7 +168,7 @@ body{
     max-width:90%;
     max-height:70%;
 		border-radius: 3px;
-		padding: bottom: 5vh;
+		padding: bottom: 10vh;
 		top: 50%;
 	  left: 50%;
 	  -ms-transform: translate(-50%, -50%);
