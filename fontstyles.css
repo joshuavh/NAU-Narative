@@ -30,7 +30,7 @@ h1 {
   font-size: 100px;
   line-height: 1.1;
   font-weight: 400;
-  color: #D5C6FF; /* Will override color (regardless of order) */
+  color: #D5C6FF;
   overflow: visible;
 }
 
@@ -83,7 +83,7 @@ h4 {
 
 span {
   -webkit-text-fill-color: rgba(0, 0, 0, 0); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: white;
 }
 
