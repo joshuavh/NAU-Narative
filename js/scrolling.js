@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 			$('html, body, *').mousewheel(function(e, delta) {
-				this.scrollLeft -= (delta * 0.5);
+				this.scrollLeft -= (delta * 0.7);
 				// e.preventDefault();
 			});
 
