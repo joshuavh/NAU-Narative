@@ -117,9 +117,11 @@ hr {
 #purple {
   -webkit-text-fill-color: #7000FF; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 0;
+  font-weight: 500;
 }
 
 #mint {
   -webkit-text-fill-color: #90FFBC; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 0;
+  font-weight: 500;
 }
