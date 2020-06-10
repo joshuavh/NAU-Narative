@@ -16,6 +16,10 @@ format("embedded-opentype"),
  format("svg"); }
 
 
+*{
+  /*-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+}
 
 body {
   font-family:'Formular','Helvetica Neue', Helvetica, Arial;
@@ -73,8 +77,7 @@ small {
 h4 {
   font-size: 14px;
   font-weight: 400;
-  color: white;
-  font-style: italic;
+  color: gray;
 }
 
 
@@ -102,7 +105,7 @@ hr {
   height:1px;
   border-width:0;
   color:gray;
-  background-color:gray
+  background-color: gray;
 }
 
 
