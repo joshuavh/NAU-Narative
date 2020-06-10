@@ -55,21 +55,21 @@ body{
 .section {
   display: block;
   width: 100vw;
-  height: 100vh;
+	height: 100vh;
+	padding-bottom: 10vh;
   float: left;
   margin-left: 0;
 	overflow: visible;
-	padding-bottom: 10vh;
 }
 
 .smallsection {
   display: block;
   width: 50vw;
   height: 100vh;
+	padding-bottom: 10vh;
   float: left;
   margin-left: 0;
 	overflow: visible;
-	padding-bottom: 10vh;
 }
 
 
