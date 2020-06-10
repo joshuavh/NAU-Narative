@@ -92,6 +92,14 @@ mark:hover {
   color: #D5C6FF;
 }
 
+hr {
+  height:1px;
+  border-width:0;
+  color:gray;
+  background-color:gray
+}
+
+
 #white {
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
 }
