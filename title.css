@@ -36,3 +36,7 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+#title2 h1 {
+  font-size: 85px;
+}

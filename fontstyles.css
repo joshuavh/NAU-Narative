@@ -25,6 +25,11 @@ body {
   font-family:'Formular','Helvetica Neue', Helvetica, Arial;
 }
 
+#present, #tomorrow {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 
 h1 {
   font-size: 100px;
@@ -39,7 +44,7 @@ h1 {
 h2 {
   font-size: 80px;
   line-height: 1.1;
-  font-weight: 400;
+  font-weight: 300;
   color: white;
   overflow: visible;
 
