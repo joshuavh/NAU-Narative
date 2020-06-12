@@ -1,3 +1,9 @@
+#title {
+  -webkit-text-fill-color: #242424 !important;
+  background-image: url("./img/bg2.gif");
+  background-size: auto 150%;
+}
+
 #titlesection1 {
   display: block;
   width: 47vw;
